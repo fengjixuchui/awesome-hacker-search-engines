@@ -1,9 +1,9 @@
 <h1 align="center">
-  <b>Awesome Hacker Search Engines</b> <img src="https://github.com/edoardottt/images/blob/main/awesome-hacker-search-engines/awesome.svg"/>
+  <b>Awesome Hacker Search Engines</b> <img src="https://raw.githubusercontent.com/edoardottt/images/main/awesome-hacker-search-engines/awesome.svg"/>
 </h1>
 
 <p align="center">
-A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red Team operations, Bug Bounty and more
+A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more
 </p>
 
 <p align="center">
@@ -21,6 +21,7 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
   <a href="https://github.com/edoardottt/awesome-hacker-search-engines#wifi-networks" target="_blank">WiFi networks</a> •
   <a href="https://github.com/edoardottt/awesome-hacker-search-engines#device-information" target="_blank">Device Info</a> •
   <a href="https://github.com/edoardottt/awesome-hacker-search-engines#credentials" target="_blank">Credentials</a> •
+  <a href="https://github.com/edoardottt/awesome-hacker-search-engines#hidden-services" target="_blank">Hidden Services</a> •
   <a href="https://github.com/edoardottt/awesome-hacker-search-engines#social-networks" target="_blank">Social Networks</a> •
   <a href="https://github.com/edoardottt/awesome-hacker-search-engines#phone-numbers" target="_blank">Phone numbers</a> •
   <a href="https://github.com/edoardottt/awesome-hacker-search-engines#threat-intelligence" target="_blank">Threat Intelligence</a> •
@@ -28,16 +29,21 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 </p>
 
 ### General Search Engines
+
 - [Google](https://www.google.com/)
 - [Bing](https://www.bing.com/)
 - [Yahoo!](http://www.yahoo.com/)
 - [Yandex](https://yandex.com/)
 - [Ask](https://www.ask.com/)
 - [Baidu](https://www.baidu.com/)
-
+- [You](https://you.com/)
+- [SearXNG](https://searx.be/?q=)
+- [EXALead](http://www.exalead.com/search/web/)
 
 ### Servers
+
 - [Shodan](https://shodan.io) - Search Engine for the Internet of Everything
+- [Censys Search](https://search.censys.io/) - Search Engine for every server on the Internet to reduce exposure and improve security.
 - [Onyphe.io](https://www.onyphe.io/) - Cyber Defense Search Engine for open-source and cyber threat intelligence data
 - [ZoomEye](https://www.zoomeye.org/) - Global cyberspace mapping
 - [GreyNoise](https://viz.greynoise.io/) - The source for understanding internet noise
@@ -45,8 +51,8 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [Netlas.io](https://netlas.io/) - Discover, Research and Monitor any Assets Available Online
 - [FOFA](https://fofa.info/) - Cyberspace mapping
 
-
 ### Vulnerabilities
+
 - [NIST NVD](https://nvd.nist.gov/vuln/search) - National Vulnerability Database
 - [MITRE CVE](https://cve.mitre.org/cve/search_cve_list.html) - Identify, define, and catalog publicly disclosed cybersecurity vulnerabilities
 - [GitHub Advisory Database](https://github.com/advisories) - Security vulnerability database inclusive of CVEs and GitHub originated security advisories
@@ -63,9 +69,13 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [Aqua Vulnerability Database](https://avd.aquasec.com/) - Vulnerabilities and weaknesses in open source applications and cloud native infrastructure
 - [Vulmon](https://vulmon.com/) - Vulnerability and exploit search engine
 - [VulDB](https://vuldb.com/) - Number one vulnerability database
-
+- [ScanFactory](https://in.scanfactory.io/cvemon.html) - Realtime Security Monitoring
+- [Trend Micro Zero Day Initiative](https://www.zerodayinitiative.com/advisories/published/) - Publicly disclosed vulnerabilities discovered by Zero Day Initiative researchers
+- [Google Project Zero](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=&sort=-id&colspec=ID%20Type%20Status%20Priority%20Milestone%20Owner%20Summary) - Vulnerabilities including Zero Days
+- [Trickest CVE Repository](https://github.com/trickest/cve) - Gather and update all available and newest CVEs with their PoC.
 
 ### Exploits
+
 - [Exploit-DB](https://www.exploit-db.com/) - Exploit Database
 - [Sploitus](https://sploitus.com/) - Convenient central place for identifying the newest exploits
 - [Rapid7 - DB](https://www.rapid7.com/db/) - Vulnerability & Exploit Database
@@ -74,19 +84,22 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [0day.today](https://0day.today/) - Ultimate database of exploits and vulnerabilities
 - [LOLBAS](https://lolbas-project.github.io/) - Living Off The Land Binaries, Scripts and Libraries
 - [GTFOBins](https://gtfobins.github.io/) - Curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems
-
+- [Payloads All The Things](https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/) - A list of useful payloads and bypasses for Web Application Security
+- [XSS Payloads](http://www.xss-payloads.com/) - The wonderland of JavaScript unexpected usages, and more
+- [exploitalert.com](https://www.exploitalert.com/search-results.html) - Database of Exploits
+- [Reverse Shell generator](https://www.revshells.com/) - Online Reverse Shell generator with Local Storage functionality, URI & Base64 Encoding, MSFVenom Generator, and Raw Mode.
 
 ### Attack Surface
+
 - [FullHunt.io](https://fullhunt.io/) - Attack surface database of the entire Internet
 - [BynaryEdge](https://www.binaryedge.io/) - We scan the web and gather data for you
-- [Censys](https://censys.io/) - Attack Surface Management Solutions
+- [Censys ASM](https://censys.io/) - Attack Surface Management Solutions
 - [RedHunt Labs](https://redhuntlabs.com/) - Discover your Attack Surface, Continuously
 - [SecurityTrails](https://securitytrails.com/) - The Total Internet Inventory
-- [criminalip.io](https://www.criminalip.io/) - Cyber Threat Intelligence Search Engine and Attack Surface Management(ASM) platform
 - [overcast-security.com](https://overcast-security.com/) - We make tracking your external attack surface easy
 
-
 ### Code Search Engines
+
 - [GitHub Code Search](https://cs.github.com/) - Search globally across all of GitHub, or scope your search to a particular repository or organization
 - [grep.app](https://grep.app/) - Search across a half million git repos
 - [publicwww.com](https://publicwww.com/) - Find any alphanumeric snippet, signature or keyword in the web pages HTML, JS and CSS code
@@ -95,9 +108,10 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [RepoSearch](http://codefinder.org/) - Source code search engine that helps you find implementation details, example usages or just analyze code
 - [SourceGraph](https://about.sourcegraph.com/) - Understand and search across your entire codebase
 - [HotExamples](https://hotexamples.com/) - Search code examples from over 1 million projects
-
+- [WP Directory](https://wpdirectory.net/) - Lightning fast regex searching of code in the WordPress Plugin and Theme Directories
 
 ### Mail Addresses
+
 - [Hunter.io](https://hunter.io/) - Find professional email addresses in seconds
 - [PhoneBook](https://phonebook.cz/) - Lists all domains, email addresses, or URLs for the given input domain
 - [IntelligenceX](https://intelx.io/) - Search engine and data archive
@@ -113,8 +127,8 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [skymem.info](http://www.skymem.info/) - Find email addresses of companies and people
 - [findemails.com](https://www.findemails.com/) - Find Anyone's Email Address in Seconds
 
-
 ### Domains
+
 - [PhoneBook](https://phonebook.cz/) - Lists all domains, email addresses, or URLs for the given input domain
 - [IntelligenceX](https://intelx.io/) - Search engine and data archive
 - [Omnisint](https://omnisint.io/subdomain-enumeration) - Subdomain enumeration
@@ -140,9 +154,10 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [C99.nl](https://api.c99.nl/) - Over 57 quality API's and growing!
 - [PassiveTotal](https://www.riskiq.com/products/passivetotal/) - Security intelligence that scales security operations and response
 - [wannabe1337.xyz](https://wannabe1337.xyz/) - Online Tools
-
+- [subdomainfinder.c99.nl](https://subdomainfinder.c99.nl/) - Scanner that scans an entire domain to find as many subdomains as possible
 
 ### URLs
+
 - [PhoneBook](https://phonebook.cz/) - Lists all domains, email addresses, or URLs for the given input domain
 - [IntelligenceX](https://intelx.io/) - Search engine and data archive
 - [URLScan](https://urlscan.io/) - A sandbox for the web
@@ -151,8 +166,8 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [shorteners.grayhatwarfare.com](https://shorteners.grayhatwarfare.com/) - Search URLs exposed by Shortener services
 - [CommonCrawl Index](http://index.commoncrawl.org/) - Open repository of web crawl data
 
-
 ### DNS
+
 - [DNSDumpster](https://dnsdumpster.com/) - dns recon & research, find & lookup dns records
 - [Chaos](https://chaos.projectdiscovery.io/#/) - Enhance research and analyse changes around DNS for better insights
 - [RapidDNS](https://rapiddns.io/) - dns query tool which make querying subdomains or sites of a same ip easy
@@ -168,18 +183,19 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [PassiveTotal](https://www.riskiq.com/products/passivetotal/) - Security intelligence that scales security operations and response
 - [wannabe1337.xyz](https://wannabe1337.xyz/) - Online Tools
 
-
 ### Certificates
+
 - [Crt.sh](https://crt.sh/) - Certificate Search
 - [CTSearch](https://ui.ctsearch.entrust.com/ui/ctsearchui) - Certificate Transparency Search Tool
 - [tls.bufferover.run](https://tls.bufferover.run/) - Quickly find certificates in IPv4 space
 - [CertSpotter](https://sslmate.com/certspotter/) - Monitors your domains for expiring, unauthorized, and invalid SSL certificates
 - [SynapsInt](https://synapsint.com/) - The unified OSINT research tool
-- [Censys - Certificates](https://search.censys.io/certificates) - Certificates Search
+- [Censys Search - Certificates](https://search.censys.io/certificates) - Certificates Search
 - [PassiveTotal](https://www.riskiq.com/products/passivetotal/) - Security intelligence that scales security operations and response
-
+- [ciphersuite.info](https://ciphersuite.info/) - TLS Ciphersuite Search. Search for a particular cipher suite by using IANA, OpenSSL or GnuTLS name format
 
 ### WiFi Networks
+
 - [Wigle.net](https://wigle.net/) - Maps and database of 802.11 wireless networks with statistics
 - [wifimap.io](https://www.wifimap.io/) - Connect to all Free WiFi Hotspots using WiFi Map App all over the World!
 - [wificafespots.com](http://www.wificafespots.com/) - Free WiFi Cafe Spots
@@ -187,15 +203,15 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [openwifimap.net](https://openwifimap.net/) - HTML5 map with OpenWiFiMap data
 - [mylnikov.org](https://www.mylnikov.org/) - Public API implementation of Wi-Fi Geo-Location database
 
-
 ### Device Information
+
 - [MAC Vendor Lookup](https://www.macvendorlookup.com/) - Look up the vendor for a specific MAC Address
 - [macvendors.com](https://macvendors.com/) - Find MAC Address Vendors. Now.
 - [macaddress.io](https://macaddress.io/) - MAC address vendor lookup
 - [maclookup.app](https://maclookup.app/) - Find the vendor name of a device by entering an OUI or a MAC address
 
-
 ### Credentials
+
 - [Have I Been Pwned](https://haveibeenpwned.com/) - Check if your email or phone is in a data breach
 - [Dehashed](https://www.dehashed.com/) - Free deep-web scans and protection against credential leaks
 - [Leak-Lookup](https://leak-lookup.com/) - Search across thousands of data breaches
@@ -204,7 +220,17 @@ A curated list of awesome search engines useful during Penetration testing, Vuln
 - [crackstation.net](https://crackstation.net/) -Massive pre-computed lookup tables to crack password hashes
 - [breachdirectory.org](https://breachdirectory.org/) - Check if your information was exposed in a data breach
 - [BreachForums](https://breached.to/) - Breaches, Data leaks, databases and more
+- [Siph0n Breach DB (onionsite)](siphondkh34l5vki.onion/) -  Breaches, Data leaks, Exploits
+- [HashKiller](https://hashkiller.io/listmanager) - Pre-cracked Hashes, easily searchable
 
+### Hidden Services
+
+- [AHMIA](https://ahmia.fi/) - Search hidden services on the Tor network
+- [thehiddenwiki.org](https://thehiddenwiki.org/) - The darknet guide
+- [tor.link](https://tor.link/) - Free anonymous deepweb / Darknet search engine
+- [deepweblinks.net](https://deepweblinks.net/) - Onion Links
+- [onionengine.com](https://onionengine.com/) - A search engine for services accessible on the Tor network
+- [OnionLand](https://onionlandsearchengine.com/) - Discover Hidden Services and access to Tor's onion sites
 
 ### Social Networks
 
@@ -230,8 +256,8 @@ These can be useful for osint and social engineering.
 - [Weibo](https://weibo.com/)
 - [Tinder](https://tinder.com/)
 
-
 ### Phone Numbers
+
 - [NumLookup](https://www.numlookup.com/) - Free reverse phone lookup
 - [SpyDialer](https://spydialer.com/) - Free Reverse Lookup Search
 - [WhitePages](https://www.whitepages.com/) - Find people, contact info & background checks
@@ -246,11 +272,12 @@ These can be useful for osint and social engineering.
 - [thisnumber.com](https://www.thisnumber.com/) - International Phone Directories
 - [usphonebook.com](https://www.usphonebook.com/) - Free Reverse Phone Number Lookup
 - [truepeoplesearch.com](https://www.truepeoplesearch.com/#) - Get current address, cell phone number, email address, relatives, friends and a lot more
+- [Tellows](https://www.tellows.com/) - Who is calling? The phone number reverse search
 - [SynapsInt](https://synapsint.com/) - The unified OSINT research tool
 - [C99.nl](https://api.c99.nl/) - Over 57 quality API's and growing
 
-
 ### Threat Intelligence
+
 - [MITRE ATT&CK](https://attack.mitre.org/) - Globally-accessible knowledge base of adversary tactics and techniques
 - [PulseDive](https://pulsedive.com/) - Threat intelligence made easy
 - [ThreatCrowd](https://threatcrowd.org/) - A Search Engine for Threats
@@ -273,9 +300,20 @@ These can be useful for osint and social engineering.
 - [malapi.io](https://malapi.io/) - Windows APIs used for malicious purposes
 - [filesec.io](https://filesec.io/) - Latest file extensions being used by attackers
 - [leakix.net](https://leakix.net/) - Search engine indexing public information and an open reporting platform linked to the results
-
+- [tria.ge](https://tria.ge/s) - Fully automated solution for high-volume malware analysis using advanced sandboxing technology
+- [Polyswarm](https://polyswarm.network/) - Launchpad for new technologies and innovative threat detection methods
+- [Cisco Talos](https://talosintelligence.com/) - The threat intelligence organization at the center of the Cisco Security portfolio
+- [scamsearch.io](https://scamsearch.io/#anchorCeckNow) - Find your scammer online & report them
+- [CyberCampaigns](http://www.cybercampaigns.net/) - Threat Actor information and Write-Ups
+- [ORKL](https://orkl.eu/) - The Community Driven Cyber Threat Intelligence Library
+- [Maltiverse](https://maltiverse.com/search) - Data from more than 100 different Threat Intelligence sources
+- [Inquest Labs](https://labs.inquest.net/) - Threat intelligence from hundreds of public, private, and internal sources to develop new FDR signatures and rules
+- [PhishTank](https://phishtank.org/) - Collaborative clearing house for data and information about phishing on the Internet
+- [IntelOwl](https://github.com/intelowlproject/IntelOwl) - Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale
+- [Lupovis](https://prowl.lupovis.io/) - Analyze and collect data on Internet-wide scans and attacks in real-time. We use this data to identify and classify malicious actors.
 
 ### Web History
+
 - [Web Archive](https://web.archive.org/) - Explore more than 702 billion web pages saved over time
 - [Archive.ph](https://archive.ph/) - Create a copy of a webpage that will always be up even if the original link is down
 - [CachedPages](http://www.cachedpages.com/) - Get the cached page of any URL
@@ -283,13 +321,19 @@ These can be useful for osint and social engineering.
 - [CommonCrawl](https://commoncrawl.org/) - Open repository of web crawl data
 - [UK Web Archive](https://www.webarchive.org.uk/ukwa/) - Collects millions of websites each year, preserving them for future generations
 
-
 ### Unclassified
+
 - [NetoGraph](https://netograph.io/) - Captures and indexes detailed, low-level snapshots of website behaviour
+- [DorkSearch](https://dorksearch.com/) - Speed up your Dorking
+- [usersearch.org](https://usersearch.org/) - Find someone by username or email on Social Networks, Dating Sites, Forums, Crypto Forums, Chat Sites and Blogs
+- [Insecam.org](http://www.insecam.org/en/) - The world biggest directory of online surveillance security cameras
+
+### Not working / Paused
+
 - [DNS.BufferOver.run](https://dns.bufferover.run/)
 
 ---------
 
-If you want to propose changes, just open an [issue](https://github.com/edoardottt/awesome-hacker-search-engines/issues) or a [pull request](https://github.com/edoardottt/awesome-hacker-search-engines/pulls).  
+If you want to propose changes, just open an [issue](https://github.com/edoardottt/awesome-hacker-search-engines/issues) or a [pull request](https://github.com/edoardottt/awesome-hacker-search-engines/pulls).
 
 [edoardoottavianelli.it](https://www.edoardoottavianelli.it) to contact me.
